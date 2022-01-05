@@ -30,7 +30,7 @@ Thanks for taking a look around my portfolio website! I am a former public schoo
           height="75"
           viewBox="0 0 75 75"
           fill="none"
-          stroke="black"
+          stroke="lightseagreen"
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >
