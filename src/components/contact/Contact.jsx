@@ -1,7 +1,6 @@
 import './Contact.css'
 import email from '../../img/email.png'
 import address from '../../img/address.png'
-import project from '../../img/project.png'
 import linkedin from '../../img/linkedin.png'
 import github from '../../img/github.png'
 import resume from '../../img/resume.png'

@@ -82,3 +82,18 @@ button{
 .success{
     padding: 5px;
 }
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+        display: flex;
+        justify-content: center;
+      flex-direction: column;
+      padding: 10px 50px;
+    }
+    .c-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 11px;
+    }
+}

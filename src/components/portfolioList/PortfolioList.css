@@ -26,3 +26,33 @@
    justify-content: space-between;
     width: 100%; 
 } 
+
+@media screen and (max-width: 480px) {
+    .pl {
+      padding: 10px;
+      width: 100%;
+      /* flex-direction: row; */
+    }
+    .portfolio-list{
+        width: 170%;
+        height: 270%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        /* padding: 50px 50px 50px 50px; */
+    }
+  
+    .pl-text {
+      width: 100%;
+    }
+  
+    .pl-desc {
+      display: none;
+    }
+    .pl-text{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+  }

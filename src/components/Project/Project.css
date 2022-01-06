@@ -51,3 +51,13 @@
 .p:hover .p-img{
 transform: translateY(-50%)
 }
+
+@media screen and (max-width: 480px) {
+    .p {
+      width: 200%;
+      height: 35vh;
+    }
+    .p-browser{
+        height: 45px;
+    }
+  }

@@ -8,7 +8,7 @@ export const projects = [
     },
     {
         id: 2,
-        name:'Abstract Konnection',
+        name:'AK(c)',
         description: 'A mock-ecommerce site selling art from a diverse array of artists. It was built with React, Express, Sequelize, and Material UI.',
         link: 'https://github.com/abstract-konnection/abstract-konnection',
         image: 'https://darylramirez507609012.files.wordpress.com/2022/01/screencapture-abstract-konnection-herokuapp-2022-01-05-15_27_47.png?w=1024'

@@ -26,3 +26,26 @@
    justify-content: space-between;
     width: 100%; 
 } 
+
+@media screen and (max-width: 480px) {
+    /* .pl {
+      padding: 10px;
+    } */
+  
+    .tech-text {
+      width: 100%;
+    }
+  
+    .pl-desc {
+      display: none;
+    }
+    .tech-list {
+        width: 60%;
+        height: 60%;
+        height: 150vh;
+        background-color: white;
+      }
+      .p-browser{
+          height: 45px;
+      }
+  }
