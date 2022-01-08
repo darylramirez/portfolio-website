@@ -1,8 +1,6 @@
 import './Contact.css'
 import email from '../../img/email.png'
-import address from '../../img/address.png'
 import linkedin from '../../img/linkedin.png'
-import github from '../../img/github.png'
 import resume from '../../img/resume.png'
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
@@ -39,17 +37,13 @@ const Contact = () => {
                 </a>
                 </div>
                 <div className='c-info-item'>
-                <img src={address} alt='' className='c-icon'/>
-                New York, NY, USA
-                </div>
-                <div className='c-info-item'>
                 <a href='https://www.linkedin.com/in/darylramirez/' title='linkedin' target='_blank' rel="noreferrer">
                 <img src={linkedin} alt='' className='c-icon'/>
                 </a>
                 </div>
                 <div className='c-info-item'>
                 <a href='https://github.com/darylramirez/' title='github' target='_blank' rel="noreferrer">
-                <img src={github} alt='' className='c-icon'/>
+                <img src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png' alt='' className='c-icon'/>
                 </a>
                 </div>
                 <div className='c-info-item'>
